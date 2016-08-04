@@ -57,8 +57,8 @@ $media-lg: 1200px;
 
 body{
 	font-size: 16px;
-	color: $color1;
-	background-color: $color2;
+	color: $colorBalck;
+	background-color: $colorWhite;
 	font-family: $mainFont;
 	font-weight: 400;
 	overflow-x: hidden;
@@ -71,7 +71,7 @@ section{
 
 
 a{
-	color: $color1;
+	color: $colorBalck;
 	text-decoration: none;
 	&:visited{
 		color: $color1;	
