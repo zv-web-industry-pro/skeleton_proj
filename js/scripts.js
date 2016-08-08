@@ -4,7 +4,14 @@ $(document).load(function() {
 
 $(document).ready(function($) {
 	console.log('JS ready');	
-
+	
+	$('#readMoreExemple').readmore({
+	        speed: 100,
+	        collapsedHeight: 150,
+	        heightMargin: 16,
+	        moreLink: '<a href="#">Читать еще</a>',
+	        lessLink: '<a href="#">Прочитал, убрать</a>'
+	    });
 	
 });
 
